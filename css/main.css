@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Sans", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color: #fff;
+    display: flex;
+}
+
+nav {
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.26);
+    padding: 10px;
+    width: 300px;
+    height: 100vh;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav ol li {
+    padding: .25em .5em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ol li:hover {
+    background-color: #eee;
+    color: #000;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#stage {
+    background-color: #111;
+    width: 800px;
+    height: 600px;
+    position: relative;
+}
+
+/* 01 a - Barchart */
+.bar {
+    background-color: white;
+    position: absolute;
+}
+
+/* 01 b - Barchart with CSS */
+.css-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.css-bar {
+    position: relative;
+    width: 100%;
+    margin: 0 10px;
+}
+
+/* 02 a - Stacked Dots */
+.circle {
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* 02 b - Stacked Dots with CSS */
+.circlestack-container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+}
+
+.css-circle {
+    position: relative;
+}
