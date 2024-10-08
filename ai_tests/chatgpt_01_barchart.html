@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Bar Chart</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .chart-container {
+            width: 80%;
+            max-width: 600px;
+            height: 300px;
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            padding: 20px;
+        }
+
+        .bar {
+            background-color: white;
+            width: 40px;
+            transition: height 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chart-container" id="chart"></div>
+
+<script>
+    const data = [1, 3, 6, 9, 3, 6, 2];
+    const chartContainer = document.getElementById('chart');
+    const maxDataValue = Math.max(...data);
+
+    data.forEach(value => {
+        const bar = document.createElement('div');
+        bar.classList.add('bar');
+        bar.style.height = `${(value / maxDataValue) * 100}%`;
+        chartContainer.appendChild(bar);
+    });
+</script>
+
+</body>
+</html>

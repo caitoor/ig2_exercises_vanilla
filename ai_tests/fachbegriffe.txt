@@ -1,0 +1,51 @@
+/* Nur eine Demo-Datei mit ein paar Fachbegriffen, um einen Quizmaster-Prompt zu erstellen */
+
+HTML
+CSS
+JavaScript Framework
+(Web)server
+Domain / TLD
+Netzwerk
+URL
+IP-Adresse
+Browser
+opening/closing tag
+Verschachtelung
+beautifying
+content management system (cms)
+document object model (DOM)
+SEO (search engine optimisation)
+html attribute
+Selector
+em
+rem
+parent element
+responsive Design
+css box model
+css class
+reusable code
+developer tools
+https://caniuse.com/
+Paretoprinzip
+Onepager
+fraction (1fr / Maßeinheit)
+boilerplate code
+mobile breakpoint
+commit (git)
+initial commit (git)
+repository
+gitignore
+branch (git)
+relativer Dateipfad
+absoluter Dateipfad
+Framework (JavaScript)
+objektorientiertes Programmieren
+Node.js
+LTS
+Laufzeitumgebung - runtime
+npm
+API
+dependency
+typescript
+typsicher
+port
